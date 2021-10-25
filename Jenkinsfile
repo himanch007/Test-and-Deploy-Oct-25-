@@ -9,7 +9,7 @@ pipeline {
  		}
  		stage("Unit test") {
  			steps {
- 				sh "python surfshop.py"
+ 				sh "python3 surfshop.py"
  			}
  		}
  	}
